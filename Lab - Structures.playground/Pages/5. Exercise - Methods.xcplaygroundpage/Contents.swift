@@ -9,6 +9,10 @@ struct Book {
     var pages: Int
     var price: Double
     
+    func description(){
+        print(title)
+        print()
+    }
 }
 
 
