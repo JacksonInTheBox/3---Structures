@@ -52,7 +52,7 @@ struct Height {
 var someonesHeight = Height(heightInInches : 65)
 print(someonesHeight)
 //:  Now create a variable instance of `Height` called `myHeight` and initialize it with your own height. Verify that both `heightInInches` and `heightInCentimeters` are accurate.
-var myHeight = Heigh(Height(heightInInches: 66)
+var myHeight = Height(heightInInches: 66)
 print(myHeight)
 
 /*:
