@@ -7,7 +7,13 @@ struct Rectangle {
     var width: Int
     var height: Int
     
+    var area: Int {
+        return width * height
+    }
 }
+
+let myRectangle = Rectangle(width: 5, height: 10)
+print("The area of the rectangle is: \(myRectangle.area)")
 
 
 /*:
@@ -29,8 +35,12 @@ struct Height {
         self.heightInCentimeters = heightInCentimeters
         self.heightInInches = heightInCentimeters/2.54
     }
+    
+    
 }
-
+var myHeight = Height(heightInInches: 60.0)
+myHeight.heightInCentimeters = 152.4
+print("Height in inches: \(myHeight.heightInInches)")
 
 
 /*:
